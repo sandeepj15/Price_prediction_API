@@ -5,13 +5,12 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-venv/
+/venv
 
 # Docker
 .dockerignore
 Dockerfile
 docker-compose.yml
-
 # Other
 .env
 app.log
