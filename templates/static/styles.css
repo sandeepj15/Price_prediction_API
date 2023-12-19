@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make the body take full height of the viewport */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+form {
+    max-width: 300px; /* Reduce the max-width for a smaller form */
+    width: 100%; /* Add this to make sure the form takes full width */
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Add this to include padding in the width calculation */
+    margin-bottom: 20px; /* Add margin to create space at the bottom */
+}
+
+/* Add this CSS to make form fields appear on the same line */
+form p {
+    margin-bottom: 15px;
+}
+
+/* Add this CSS to style the label and input fields */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Add this CSS to style the submit button */
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Add this CSS for the logo */
+form img.logo {
+    max-width: 100%; /* Make the image responsive within its container */
+    height: auto; /* Make the image height automatic to maintain aspect ratio */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    border-radius: 10px; /* Add border-radius for a rounded appearance */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}

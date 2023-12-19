@@ -1,0 +1,16 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Docker
+.dockerignore
+Dockerfile
+
+# Other
+.env
+app.log

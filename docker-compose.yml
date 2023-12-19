@@ -1,0 +1,19 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+    environment:
+      SECRET_KEY: lE0pkf9gotS-v0QSiwJRinCuedPhL0qlpZ54oj9xkLs
+      ALGORITHM: HS256
+      ACCESS_TOKEN_EXPIRE_MINUTES: "30"
+      COOKIE_NAME: access_token
+      MONGODB_URI: "mongodb://mongodb:27017"
+      MONGODB_DB: fastapi_auth
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
