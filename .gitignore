@@ -10,6 +10,7 @@ venv/
 # Docker
 .dockerignore
 Dockerfile
+docker-compose.yml
 
 # Other
 .env
