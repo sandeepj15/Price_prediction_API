@@ -9,7 +9,6 @@ __pycache__/
 
 # Docker
 .dockerignore
-Dockerfile
 docker-compose.yml
 # Other
 .env
